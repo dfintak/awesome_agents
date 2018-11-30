@@ -1,0 +1,221 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+
+h1, h2, h3, h4{	
+    font-family: 'Abril Fatface', cursive;
+	text-align: center;
+	margin:0;
+}
+
+h1{
+	font-size: 9vw;
+}
+
+h2{
+	font-size:3vw;
+}
+
+p{
+	font-size:1vw;
+}
+
+
+.message{
+	position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+	width:60%;
+	margin-left:30%;
+	margin-right: 10%;
+	margin-top: 33%;
+}
+
+.hype{
+	text-transform:uppercase;
+}
+
+@media screen and (max-width: 600px) {
+    
+	
+	h1{
+	font-size: 11.5vw;
+	}
+
+	h2{
+		font-size:7vw;
+	}
+
+	p{
+		font-size:3.53vw;
+	}
+	
+	.message {
+		margin-top:45%;;
+	}
+
+	.vector_phone{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+		height: 100%;
+		width: 80%;
+	}
+	
+	.vector_tablet{
+		display: none;
+	}
+	
+	.vector_laptop{
+		display: none;
+		
+	}
+	.vector_full{
+		display: none;
+		
+	}
+
+}
+
+
+@media screen and (max-width:460px){
+	.vector_phone{
+		width:100%
+	}
+	
+	.message {
+		
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width:800px) {
+	
+	
+	h1{
+	font-size: 10vw;
+	}
+
+	h2{
+		font-size:5vw;
+	}
+
+	p{
+		font-size:3.8vw;
+	}
+	
+	
+    .message {
+		margin-top:27%;
+	}
+
+	.vector_phone{
+		display: none;
+	}
+	
+	.vector_tablet{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+		height: 100%;
+		width: 80%;
+	}
+	
+	.vector_laptop{
+		display: none;
+		
+	}
+	.vector_full{
+		display: none;
+		
+	}
+
+}
+
+@media screen and (min-width: 800px) and (max-width: 1150px){
+    
+	h1{
+	font-size: 9.5vw;
+	}
+
+	h2{
+		font-size:6vw;
+	}
+
+	p{
+		font-size:3.4vw;
+	}
+	
+    .message {
+		margin-top:23%;
+	}
+
+	.vector_phone{
+		display: none;
+	}
+	
+	.vector_tablet{
+		display: none;
+	}
+	
+	.vector_laptop{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+		height: 100%;
+		width: 80%;
+		
+	}
+	.vector_full{
+		display: none;
+		
+	}
+
+}
+
+@media screen and (min-width: 1150px) {
+
+	h1{
+	font-size: 6.5vw;
+	}
+
+	h2{
+		font-size: 4.66vw;
+	}
+
+	p{
+		font-size:2vw;
+	}
+	
+	.message {
+		margin-top:20%;
+	}
+
+	.vector_phone{
+		display: none;
+	}
+	
+	.vector_tablet{
+		display: none;
+	}
+	
+	.vector_laptop{
+		display: none;
+		
+	}
+	.vector_full{
+		position: absolute;
+		left: 0px;
+		top: 0px;
+		z-index: -1;
+		height: 100%;
+		width: 100%;	
+	}
+}
